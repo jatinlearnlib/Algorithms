@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func Intersection(arr1 []int, arr2 []int) ([]int, error) {
 	result := make([]int, 0)

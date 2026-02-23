@@ -25,7 +25,7 @@ func main() {
 	   less memory as compared to rune that takes 4 byte.
 */
 
-//Approach 1
+// Approach 1
 func reverseString1(str string) (string, error) {
 	x := []byte(str)
 	if len(str) <= 0 {
@@ -40,7 +40,7 @@ func reverseString1(str string) (string, error) {
 
 }
 
-//Approach 2
+// Approach 2
 func reverseString2(str string) (string, error) {
 	x := make([]string, 0)
 
